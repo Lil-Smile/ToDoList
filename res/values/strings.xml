@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="buttonDone">Сделано</string>
+    <string name="buttonNotDone">Не сделано</string>
+    <string name="buttonAll">Все</string>
+    <string name="buttonAdd">Добавить</string>
+</resources>

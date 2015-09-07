@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/llButtons">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonDone"
+                android:id="@+id/buttonDone" android:layout_weight="1"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonNotDone"
+                android:id="@+id/buttonNotDone" android:layout_weight="1"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonAll"
+                android:id="@+id/buttonAll" android:layout_weight="1"/>
+    </LinearLayout>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/lvListOfJobs"
+            android:layout_gravity="right"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonAdd"
+            android:id="@+id/buttonAdd"
+            android:layout_gravity="center_horizontal"
+            />
+</LinearLayout>
+
