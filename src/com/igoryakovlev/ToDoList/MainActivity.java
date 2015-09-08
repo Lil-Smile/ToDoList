@@ -118,7 +118,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         switch (v.getId())
         {
-            //todo: add checking on buttons
             case R.id.buttonAdd:
             {
                 final Dialog dialog = new Dialog(this);
