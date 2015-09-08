@@ -5,4 +5,6 @@
     <string name="buttonNotDone">Не сделано</string>
     <string name="buttonAll">Все</string>
     <string name="buttonAdd">Добавить</string>
+    <string name="newTask">Новое задание</string>
+    <string name="cancel">Отмена</string>
 </resources>

@@ -5,4 +5,6 @@
     <string name="buttonNotDone">Have not done</string>
     <string name="buttonAll">All</string>
     <string name="buttonAdd">Add</string>
+    <string name="newTask">New task</string>
+    <string name="cancel">Cancel</string>
 </resources>
