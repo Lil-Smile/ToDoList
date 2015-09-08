@@ -1,17 +1,18 @@
 <LinearLayout
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:orientation="horizontal"
-        xmlns:android="http://schemas.android.com/apk/res/android">
+        xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/backgroundListItem">
 
     <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/buttonDone"
-            android:id="@+id/cbJob" android:layout_weight="1"/>
+            android:id="@+id/cbJob" android:layout_weight="1"
+            android:focusable="false"
+            android:clickable="false" android:textSize="@dimen/textSize" android:minWidth="@dimen/minWidthButtons"/>
     <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/checkboxWidth"
             android:layout_height="wrap_content"
             android:text="New Text"
-            android:id="@+id/tvJob" android:layout_weight="1" android:layout_marginLeft="20dp" android:textSize="20sp"/>
+            android:id="@+id/tvJob" android:layout_weight="1" android:layout_marginLeft="20dp" android:textSize="@dimen/textSize"/>
 </LinearLayout>

@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">ToDoList</string>
     <string name="buttonDone">Сделано</string>
-    <string name="buttonNotDone">Не сделано</string>
+    <string name="buttonNotDone">Пока нет</string>
     <string name="buttonAll">Все</string>
     <string name="buttonAdd">Добавить</string>
     <string name="newTask">Новое задание</string>

@@ -26,7 +26,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String executionString = "CREATE TABLE "+TABLE_NAME+" (id integer autoincrement, "+JOBS_NAME+" text, "+DONE_OR_NOT+" text);";
+        String executionString = "CREATE TABLE "+TABLE_NAME+" (id INTEGER PRIMARY KEY AUTOINCREMENT, "+JOBS_NAME+" text, "+DONE_OR_NOT+" text);";
         db.execSQL(executionString);
     }
 
@@ -83,8 +83,16 @@ public class DBHelper extends SQLiteOpenHelper {
             cv.put(DONE_OR_NOT, "false");
         }
         String[] args = {todo};
-        db.update(TABLE_NAME,cv,JOBS_NAME+" like ? ",args);
+        db.update(TABLE_NAME, cv, JOBS_NAME + " like ? ", args);
     }
+
+    public void deleteFromDb(String todo)
+    {
+        SQLiteDatabase database = this.getWritableDatabase();
+        String[] args = {todo};
+        database.delete(TABLE_NAME,JOBS_NAME+" like ? ", args);
+    }
+
 
 
 }

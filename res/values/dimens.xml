@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minHeightButtons">50dp</dimen>
+    <dimen name="minWidthButtons">50dp</dimen>
+    <dimen name="textSize">15sp</dimen>
+    <dimen name="marginButtons">20dp</dimen>
+    <dimen name="checkboxWidth">200dp</dimen>
+</resources>

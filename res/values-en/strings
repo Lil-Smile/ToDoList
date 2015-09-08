@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">ToDoList</string>
     <string name="buttonDone">Have Done</string>
-    <string name="buttonNotDone">Have not done</string>
+    <string name="buttonNotDone">Not yet</string>
     <string name="buttonAll">All</string>
     <string name="buttonAdd">Add</string>
     <string name="newTask">New task</string>
